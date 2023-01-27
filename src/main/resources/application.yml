@@ -1,0 +1,18 @@
+# RabbitMQ
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
+
+rabbitmq:
+  default:
+    queue: default-queue
+  direct:
+    queue-1: direct-queue-1
+    queue-2: direct-queue-2
+    exchange: direct-exchange
+    routing-key-1: direct-routing-key-1
+    routing-key-2: direct-routing-key-2
